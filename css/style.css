@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+#container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 50px;
+  background: #eee;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+#container .input {
+  display: flex;
+  justify-content: end;
+  text-align: right;
+  font-size: 50px;
+  padding: 0 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 80px;
+  background: #eee;
+  border: 1px solid #fff;
+}
+
+#container .clear {
+  width: 75%;
+}
+
+#container .zero {
+  width: 50%;
+}
+
+#container .divide,
+#container .multiply,
+#container .substract,
+#container .add,
+#container .operate {
+  background-color: orange;
+}
