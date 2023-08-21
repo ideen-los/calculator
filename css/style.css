@@ -104,5 +104,5 @@ body {
 .symbol-keyboard,
 .symbol-mouse {
   display: inline-block;
-  filter: brightness(0.7);
+  filter: brightness(0.8);
 }
